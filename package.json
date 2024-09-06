@@ -18,7 +18,7 @@
 		"*.ts*": [
 			"pnpm biome format --write .",
 			"pnpm biome lint .",
-			"pnpm build"
+			"pnpm build:webpack"
 		]
 	},
 	"devDependencies": {
